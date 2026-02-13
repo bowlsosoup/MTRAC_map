@@ -3,10 +3,10 @@ import { useEffect } from 'react';
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Message from './components/message';
+// import Message from './components/message';
 import ListGroup from './components/ListGroup';
-import Alert from './components/Alert';
-import Button from './components/Button';
+// import Alert from './components/Alert';
+// import Button from './components/Button';
 import Map from './components/Map';
 import getPoints from './getPoints';
 
@@ -33,7 +33,7 @@ function App() {
     setSelectedIndex(index);
   }
 
-  const [AlertVisible, setAlertVisibility] = useState(false);
+  // const [AlertVisible, setAlertVisibility] = useState(false);
 
 useEffect(() => {
   const interval = setInterval(() => {
